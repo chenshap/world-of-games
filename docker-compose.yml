@@ -1,0 +1,11 @@
+version: "3"
+services:
+  web:
+    build: .
+    image: chen03/project
+    ports:
+      - "8081:80"
+#    environment:
+#      "REDIS_HOST": "redis"
+#  redis:
+#    image: "redis:alpine"
